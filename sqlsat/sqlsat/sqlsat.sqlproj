@@ -81,4 +81,7 @@
   <ItemGroup>
     <RefactorLog Include="sqlsat.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="sqlsat.publish.xml" />
+  </ItemGroup>
 </Project>
