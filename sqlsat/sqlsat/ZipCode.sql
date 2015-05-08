@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[ZipCode]
+(
+	[ZipCodeId] VARCHAR(5) NOT NULL PRIMARY KEY
+)

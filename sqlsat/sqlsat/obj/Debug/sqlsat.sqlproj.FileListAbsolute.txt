@@ -1,0 +1,5 @@
+C:\Users\Noah\Documents\SCHOOL\Comp Sci 440\SQLSATURDAY3\sqlsat\sqlsat\bin\Debug\sqlsat.dacpac
+C:\Users\Noah\Documents\SCHOOL\Comp Sci 440\SQLSATURDAY3\sqlsat\sqlsat\obj\Debug\sqlsat.dll
+C:\Users\Noah\Documents\SCHOOL\Comp Sci 440\SQLSATURDAY3\sqlsat\sqlsat\obj\Debug\sqlsat.pdb
+C:\Users\Noah\Documents\SCHOOL\Comp Sci 440\SQLSATURDAY3\sqlsat\sqlsat\bin\Debug\sqlsat.dll
+C:\Users\Noah\Documents\SCHOOL\Comp Sci 440\SQLSATURDAY3\sqlsat\sqlsat\bin\Debug\sqlsat.pdb
