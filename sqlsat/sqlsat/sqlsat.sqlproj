@@ -57,6 +57,7 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Snapshots" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Actor.sql" />
@@ -77,11 +78,14 @@
     <Build Include="Class.sql" />
     <Build Include="Topic.sql" />
     <Build Include="Schedule.sql" />
+    <Build Include="Project.sql" />
+    <Build Include="get_rooms_ordered_by_track.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="sqlsat.refactorlog" />
   </ItemGroup>
   <ItemGroup>
     <None Include="sqlsat.publish.xml" />
+    <None Include="Snapshots\sqlsat_20150507_20-21-01.dacpac" />
   </ItemGroup>
 </Project>

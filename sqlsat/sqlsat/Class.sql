@@ -2,10 +2,11 @@
 (
 	[ClassId] INT NOT NULL PRIMARY KEY, 
     [TopicId] INT NOT NULL, 
-    [Name] VARCHAR(50) NOT NULL, 
     [Description] VARCHAR(250) NOT NULL, 
     [Level] VARCHAR(12) NOT NULL , 
-    CONSTRAINT [FK_Class_Topic] FOREIGN KEY ([TopicId]) REFERENCES [Topic](TopicId)
+    [ActorId] INT NOT NULL, 
+    CONSTRAINT [FK_Class_Topic] FOREIGN KEY ([TopicId]) REFERENCES [Topic](TopicId), 
+    CONSTRAINT [FK_Class_Actor] FOREIGN KEY ([ActorId]) REFERENCES [Actor](ActorId)
 )
 
 GO
